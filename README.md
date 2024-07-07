@@ -21,7 +21,7 @@ query: Query used (if any)
 username: Username of the tweet author
 text: The tweet content
 ## Preprocessing
-###Steps:
+Steps:
 Lowercasing text
 Removing stop words
 Removing punctuations
@@ -33,7 +33,7 @@ Tokenization
 Stemming
 Lemmatization
 ## Exploratory Data Analysis (EDA)
-###Key Insights:
+Key Insights:
 Label Distribution: Proportion of positive vs. negative tweets.
 Tweet Length Distribution: Distribution of the lengths of tweets.
 Most Common Words: Word clouds for positive and negative tweets.
@@ -50,12 +50,12 @@ Dense Layer: Fully connected layer with ReLU activation
 Dropout Layer: Prevents overfitting
 Output Layer: Sigmoid activation for binary classification
 ## Evaluation
-###Metrics:
+Metrics:
 Accuracy: Overall accuracy of the model on the test set.
 Confusion Matrix: True positives, true negatives, false positives, and false negatives.
 ROC Curve: Performance of the classification model at different thresholds.
 ## Power BI Dashboard
-###Visualizations:
+Visualizations:
 Total Users 
 Top user with more time
 Top user with More tweets
